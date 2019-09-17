@@ -1,0 +1,74 @@
+body {
+    background: url(../images/crossfit2.jpg) center center fixed;
+    font-family: 'Neucha', cursive;
+ }
+ 
+ * {
+    box-sizing: border-box;
+ }
+
+ 
+ .btn {
+    margin: 10px;
+    opacity: 1.0;
+    background-color: black;
+    border-color: rgb(9, 87, 110);
+ }
+ 
+ .jumbotron {
+    color:  rgb(9, 87, 110);
+    margin-bottom: auto;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    opacity: .8;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
+    font-family: 'Barriecito', cursive;
+ }
+
+ label {
+    color: rgb(9, 87, 110);
+    font-size: 25px;
+    margin-right: 10px;
+    position: relative; 
+ }
+ 
+ p {
+    color: rgb(9, 87, 110);
+    font-size: 16px;
+ }
+ 
+ audio {
+    display: none;
+ }
+ 
+ .div1 {
+    display: inline-block;
+    float: none;
+    margin: 10px;
+ }
+
+ .wrapper {
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 3px solid rgb(9, 87, 110);
+    height: 450px;
+    width: 60%;
+    text-align: center;
+    opacity: 0.8; 
+  }
+
+  h3 {
+      font-size: 35px; 
+  }
+
+  .form-group {
+      font-size: 25px; 
+  }
+
+  #gifButtonsView.container {
+      margin-left: -210px; 
+  }
