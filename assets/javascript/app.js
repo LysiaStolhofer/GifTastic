@@ -46,7 +46,7 @@ $( document ).ready(function() {
     url: queryURL,
     method: 'GET'
     })
-    .done(function(response) {
+    .then(function(response) {
     $("#gifsView").empty();
 
     //show results of gifs
@@ -62,8 +62,8 @@ $( document ).ready(function() {
     //pull rating of gif
     var gifRating = $("<p>").text("Rating " + results[i].rating);
     gifDiv.append(gifRating);
+    
     //pull gif
-
     var gifImage = $("<img>");
     gifImage.attr("src", results[i].images.fixed_height_small_still.url);
 
