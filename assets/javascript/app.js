@@ -47,7 +47,6 @@ $(document).ready(function () {
             method: 'GET'
         })
             .then(function (response) {
-                console.log(response);
                 $("#gifsView").empty();
 
                 //show results of gifs
@@ -56,6 +55,8 @@ $(document).ready(function () {
                     alert("This Giphy doesn't exist.");
                 }
                 for (var i = 0; i < results.length; i++) {
+
+                    results.length = 10;
 
                     //put gifs in a div
                     var gifDiv = $("<div1>");
@@ -84,7 +85,7 @@ $(document).ready(function () {
                 }
             });
     }
-    //list of already created sports
+    //list of already created buttons
     displayGifButtons();
     addNewButton();
     removeLastButton();
